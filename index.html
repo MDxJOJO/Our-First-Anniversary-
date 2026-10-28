@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#070a2a">
+  <meta name="description" content="A little universe made with love for our first anniversary.">
+  <title>Our First Year, My FoREVer ☀️💖</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sky" aria-hidden="true">
+    <div class="nebula nebula-one"></div><div class="nebula nebula-two"></div>
+    <div id="starfield"></div><div class="shooting-star"></div>
+  </div>
+  <div class="sound-note" id="soundNote">A little universe, made just for you ✦</div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Back to beginning"><span class="brand-sun">☀</span><span>OUR LITTLE UNIVERSE</span></a>
+    <div class="progress-wrap" aria-label="Adventure progress">
+      <span id="progressLabel">0 / 3 stars</span><div class="progress-track"><div id="progressBar"></div></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="screen hero active" id="home">
+      <div class="eyebrow"><span class="eyebrow-line"></span> OCTOBER 28-29 · OUR FIRST ANNIVERSARY <span class="eyebrow-line"></span></div>
+      <div class="hero-orbit" aria-hidden="true">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <span class="orbit-heart">♥</span><span class="orbit-star star-a">✦</span><span class="orbit-star star-b">✧</span>
+      </div>
+      <p class="pre-title">For my beautiful sunflower</p>
+      <h1>Our First Year,<br><em>My FoREVer.</em></h1>
+      <p class="hero-copy">One year ago, our story began. Today, I made a little world for you to explore with tiny surprises, little challenges, and a message from my heart.</p>
+      <p class="signature">For you, Sole mio <span>☀️💖</span></p>
+      <button class="primary-btn" id="beginBtn">Begin our little adventure <span>↗</span></button>
+    </section>
+
+    <section class="screen map-screen" id="map">
+      <div class="section-heading">
+        <p class="eyebrow">YOUR JOURNEY STARTS HERE</p>
+        <h2>Three little stars.<br><em>One big love.</em></h2>
+        <p>Each star holds a tiny part of our story. Unlock all three to discover your final surprise.</p>
+      </div>
+      <div class="constellation">
+        <svg class="constellation-lines" viewBox="0 0 600 360" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M95 255 Q160 80 295 150 T500 70" />
+          <path d="M95 255 Q300 330 500 70" class="line-faint"/>
+        </svg>
+        <button class="quest-node node-one" data-quest="0" aria-label="Open the first star"><span class="node-icon">✦</span><span class="node-label">The Beginning</span><small>01 · OUR FIRST DAY</small></button>
+        <button class="quest-node node-two" data-quest="1" aria-label="Open the second star"><span class="node-icon">♡</span><span class="node-label">A Little Challenge</span><small>02 · FOLLOW YOUR HEART</small></button>
+        <button class="quest-node node-three" data-quest="2" aria-label="Open the third star"><span class="node-icon">☀</span><span class="node-label">A Promise for You</span><small>03 · THE THINGS THAT MATTER</small></button>
+      </div>
+      <div class="map-footer"><span class="tiny-sparkle">✧</span> Every star is a little reminder that you are loved. <span class="tiny-sparkle">✧</span></div>
+    </section>
+
+    <section class="screen quest-screen" id="quest">
+      <button class="back-link" id="backToMap">← Back to the stars</button>
+      <div class="quest-card">
+        <div class="quest-symbol" id="questSymbol">✦</div>
+        <p class="eyebrow" id="questEyebrow">STAR ONE · THE BEGINNING</p>
+        <h2 id="questTitle">Every story has a day one.</h2>
+        <p class="quest-description" id="questDescription">Do you remember the date our story began?</p>
+        <div id="questChallenge" class="challenge-area"></div>
+        <p class="feedback" id="questFeedback" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <section class="screen finale-screen" id="finale">
+      <div class="finale-glow" aria-hidden="true"></div>
+      <p class="eyebrow">YOU FOUND EVERY STAR</p>
+      <h2>And the best part<br><em>is still you.</em></h2>
+      <p class="finale-copy">Thank you for exploring this little universe with me. There's one more little surprise waiting for you, made with all my love.</p>
+      <button class="primary-btn" id="openLetterBtn">Open your final surprise <span>♡</span></button>
+    </section>
+
+    <section class="screen letter-screen" id="letter">
+      <button class="back-link" id="backToFinale">← One last moment</button>
+      <div class="letter-card">
+        <div class="letter-top">☀️ <span>FOR SOLE MIO</span> 💖</div>
+        <h2>One year with you.<br><em>A thousand reasons to love you.</em></h2>
+        <div class="letter-body">
+          <p>My beautiful Avonne,</p>
+          <p>One year with you has given my heart so many reasons to smile. You have become such a precious part of my life, and even the simplest moments feel more beautiful because I get to share them with you.</p>
+          <p>Thank you for every memory we've made, every laugh we've shared, every little moment that became special just because it was ours. I love the person you are, the way you make my days brighter, and the feeling of having someone so wonderful to care for and to keep close to my heart.</p>
+          <p>On our first anniversary, I want you to know that I am not choosing you only for the beautiful days. I choose you through the ordinary days, the difficult moments, the misunderstandings we learn from, and all the little chances we get to understand each other better. I want to keep loving you with patience, tenderness, honesty, and a heart that keeps making room for you.</p>
+          <p>My wish for us is simple and precious: more reasons to laugh, more memories to treasure, more gentle days together, and a love that grows through the way we care for each other. You are my favorite choice, today and in all the days I hope we still get to share.</p>
+          <p>Happy first anniversary, my love. Thank you for being you, and for being part of my story. I love you so much, Avonne.</p>
+          <p class="letter-signoff">Forever your Maicol <span>🌈🧡</span></p>
+        </div>
+        <div class="letter-divider"><span>✧</span><span>♥</span><span>✧</span></div>
+        <section class="music-memory" aria-labelledby="musicTitle">
+          <p class="eyebrow">A MEMORY YOU GAVE ME</p>
+          <h3 id="musicTitle">The song you gave me</h3>
+          <p class="music-copy">You gave this song to me, and it found a place in my heart. I wanted to keep a little memory of that feeling here.</p>
+          <div class="music-card">
+            <div class="album-art" id="albumArt">
+              <img id="songPhoto" src="assets/avonne-song-photo.png" alt="Avonne, in a little memory made for her song">
+              <div class="album-placeholder" id="albumPlaceholder"><span>☀️💖</span><small>YOUR SPECIAL SONG</small></div>
+            </div>
+            <div class="music-details"><span class="music-kicker">A MEMORY I TREASURE</span><strong>You’re Gonna Live FoREVer in me</strong><span class="music-note">Author: Sole mio ☀️💖</span>
+              <audio id="anniversarySong" controls preload="metadata">
+                <source src="audio/youre-gonna-live-forever-in-me.mp3" type="audio/mpeg">
+                Your browser does not support audio playback.
+              </audio>
+            </div>
+          </div>
+        </section>
+        <p class="final-signature">Made with all my love, just for you. <span>☀️💖</span></p>
+        <button class="text-btn" id="restartBtn">Take the journey again ↺</button>
+      </div>
+    </section>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <div class="confetti-layer" id="confettiLayer" aria-hidden="true"></div>
+  <script src="script.js"></script>
+</body>
+</html>

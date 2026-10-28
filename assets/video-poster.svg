@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><radialGradient id="bg"><stop stop-color="#1a286b"/><stop offset="1" stop-color="#070a2a"/></radialGradient><radialGradient id="glow"><stop stop-color="#f8dba0" stop-opacity=".3"/><stop offset="1" stop-color="#f8dba0" stop-opacity="0"/></radialGradient></defs>
+<rect width="1280" height="720" fill="url(#bg)"/><circle cx="640" cy="330" r="280" fill="url(#glow)"/>
+<g fill="#fff"><circle cx="160" cy="110" r="2"/><circle cx="300" cy="230" r="1.5"/><circle cx="1080" cy="160" r="2"/><circle cx="980" cy="500" r="1.5"/><circle cx="190" cy="550" r="1.5"/><circle cx="840" cy="100" r="1.2"/></g>
+<text x="640" y="290" font-family="Georgia,serif" font-size="34" text-anchor="middle" fill="#f8dba0" letter-spacing="8">A MESSAGE FOR YOU</text>
+<text x="640" y="370" font-family="Georgia,serif" font-size="68" font-style="italic" text-anchor="middle" fill="#fffaf5">My Sole mío ☀️💖</text>
+<text x="640" y="430" font-family="Arial,sans-serif" font-size="22" text-anchor="middle" fill="#c8c8ff">Made with love, just for you.</text></svg>
